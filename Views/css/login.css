@@ -1,0 +1,90 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family: Lato, sans-serif;
+}
+
+html,body{
+	width:100%;
+	height:100%;
+	background-image: url('../img/bg-polygon.jpg');
+}
+
+.form-container{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 360px;
+}
+
+.logo{
+	width: 200px;
+	height: 112.5px;
+	background-size: 100% 100%;
+	background-position: center;
+	background-image: url("../img/logo-admin.png");
+	display: block;
+	margin: 0 auto;
+}
+
+form{
+	background-color: white;
+	padding: 25px;
+	border-radius: 8px;
+}
+
+.form-wraper:not(:first-child){
+	margin-top: 25px;
+}
+
+.input-content{
+	background: #F2F2F2;
+	padding: 10px;
+	font-size: 20px;
+	border-radius: 8px;
+}
+
+.input-content input{
+	border: none;
+	outline: none;
+	background-color: transparent;
+	margin-left: 3px;
+	width: 90%;
+	font-size: 20px;
+}
+
+.input-content i{
+	color: #2d3b45;
+}
+
+input[type="submit"]{
+	width: 100%;
+	padding: 10px;
+	font-size: 20px;
+	border-radius: 8px;
+	border: none;
+	outline: none;
+	color: white;
+	background-color: #2d3b45;
+	cursor: pointer;
+}
+
+input[type="checkbox"]{
+	width: 15px;
+	height: 15px;
+	outline: none;
+	cursor: pointer;
+}
+
+label[for="lembrar"]{
+	position: relative;
+	bottom: 2px;
+}
+
+.voltar{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}

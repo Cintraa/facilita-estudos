@@ -1,0 +1,279 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+html,body{
+	width:100%;
+	height:100%;
+}	
+
+.container{
+	max-width: 1280px;
+	margin: 0 auto;
+}
+
+
+.clear{
+	clear: both;
+}
+
+header{
+	width: 100%;
+	padding: 5px;
+	background-color: #4890cb;
+}
+
+header .logo{
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+	width: calc(800px * (1 / (450 / 68.75)));
+	height: calc(450px * (1 / (450 / 68.75)));
+	background-size: 100% 100%;
+	background-position: center;
+	background-image: url("../img/logo-admin.png");
+	display: inline-block;
+}
+
+header .logout{
+	float: right;
+	color: white;
+	font-size: 25px;
+	line-height: 68px;
+	margin-right: 30px;
+	text-decoration: none;
+}
+
+section{
+	width: 100%;
+	text-align: center;
+	padding: 25px;
+	font-size: 21px;
+	font-family: 'Lato', sans-serif;
+}
+
+.section-location{
+	background-color: #4890CB;
+	color: white;
+}
+
+.section-location input{
+	font-size: 19px;
+}
+
+main{
+	max-width: 770px;
+	padding: 20px;
+	margin: 0 auto;
+	font-family: 'Lato', sans-serif;
+}
+
+.main-form{
+	padding: 20px;
+}
+
+.main-form input[type="text"]{
+	margin-bottom: 10px;
+	outline: none;
+	width: 100%;
+	padding: 5px;
+	border: 1.5px solid gray;
+	border-radius: 8px;
+	font-family:'Lato', sans-serif;
+	transition: .2s;
+}
+
+.main-form textarea{
+	margin-bottom: 10px;
+	outline: none;
+	resize: none;
+	width: 100%;
+	padding: 5px;
+	height: 250px;
+	border: 1.5px solid gray;
+	border-radius: 8px;
+	font-family:'Lato', sans-serif;
+	transition: .2s;
+}
+
+.main-form input[type="text"]:focus, .main-form textarea:focus{
+	border-color: #4890cb;
+	transition: .2s;
+}
+
+.main-form select{
+	margin-bottom: 10px;
+	border-color: transparent;
+	border-radius: 3px;
+	outline: none;
+	background: none;
+	font-size: 40px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.main-form input[type="submit"]{
+	margin: 0 auto;
+	padding: 5px;
+	cursor: pointer;
+	width: 100%;
+	font-size: 25px;
+	border-radius: 8px;
+	background-color: #4890cb;
+	border: none;
+	color: white;
+}
+
+.title{
+  font-family: 'Lobster Two', cursive;
+  font-size: 24px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.title h1{
+  text-align: center;
+  font-weight: normal;
+}
+.title span{
+  display: inline-block;
+  position: relative;
+} 
+
+.title span:before, .title span:after{
+  content: "";
+ 	position: absolute;
+  height: 10px;
+  background: rgba(242, 159, 5, 0.7);
+  top: 50%;
+	width: 35vw;
+}
+
+.title span:before{
+  right: 100%;
+  margin-right: 15px;
+}
+
+.title span:after{
+  left: 100%;
+  margin-left: 15px;
+}
+
+.topic, topic{
+	color: #f29f05;
+	font-weight: bold;
+	font-size: calc(1em + 1px);
+}
+
+.topic:before, topic:before{
+	content: '-';
+	width: 12px;
+	position: relative;
+	top: -1px;
+	display: inline-block;
+  font-size: 20px;
+}
+
+.subtitle, subtitle{
+	font-size: 30px;
+	background-color: rgba(242, 159, 5, 0.7);
+	padding: 5px 10px;
+	display: block;
+	text-decoration: none;
+}
+ul{    
+  margin-left: 0;      
+  padding-left: 0;
+}
+
+ul > li {     
+  margin: 0 0 6px 2em;
+}
+
+ol {
+  counter-reset: li;
+  margin-left: 0;
+  padding-left: 0;
+}  
+
+ol > li {      
+  position: relative;     
+  margin: 0 0 6px 2em;      
+  padding:4px 8px;       
+  list-style: none;       
+  background: #f6f6f6;  
+}  
+
+ol > li:before {      
+  content: counter(li);      
+  counter-increment: li;      
+  position: absolute;     
+  top: -2px;      
+  left: -2em; 
+  box-sizing: border-box;    
+  width: 2em;  
+  margin-right: 8px;    
+  padding: 4px;      
+  background-color: rgba(242, 159, 5, 0.7);      
+  font-weight: bold;            
+  text-align: center;  
+ }
+
+img{
+	max-width: 100%;
+	max-height: 60vh;
+	margin: 0 auto;
+	display: block;
+}
+
+img.jpg{
+	width: 95%;
+	border: 8px solid rgba(242, 159, 5, 0.7);
+}
+
+img.small{
+	max-width: 400px;
+}
+
+img.inline{
+	margin: 0 0;
+	display: inline-block;
+}
+
+img.livro{
+	min-height: 75vh;
+}
+
+de{
+	font-weight: bold;
+	color: #2b2b2b;
+}
+
+d{
+	color: #f29f05;
+}
+
+d2{
+	color: #04C4D9;
+}
+
+border{
+	padding: 2px;
+	border: 3px solid #04C4D9;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 770px){
+
+	img.small {
+		max-width: 100%;
+	}
+
+	img.inline{
+		display: block;
+		margin: 0 auto;
+	}
+
+}

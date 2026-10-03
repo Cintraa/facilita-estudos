@@ -4,12 +4,16 @@
 
 **A free study platform for Brazilian high-school students, with a custom-built PHP content management system.**
 
+[![Live Demo](https://img.shields.io/badge/🚀_LIVE_DEMO-Check_it_out-success?style=for-the-badge&logo=internetexplorer)](https://facilitaestudos.freehosting.dev/)
+
 ![PHP](https://img.shields.io/badge/PHP-777BB4?logo=php&logoColor=white)
 ![Apache](https://img.shields.io/badge/Apache-D22128?logo=apache&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?logo=cloudflare&logoColor=white)
 ![Status](https://img.shields.io/badge/status-archived-lightgrey)
+
+> **👉 [Click here to view the live demo: facilitaestudos.freehosting.dev](https://facilitaestudos.freehosting.dev/)**
 
 ![Home page](docs/screenshots/home.png)
 

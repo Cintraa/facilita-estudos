@@ -27,7 +27,7 @@
 | **My role** | Solo project: design, front end, back end, deployment |
 | **Production** | Live at `facilitaestudos.com.br` behind Cloudflare, 2021–2022 (now offline) |
 | **Users** | **300+** (Google Analytics; only home-page visits were tracked, so real reach was higher) |
-| **Content** | 57 articles across 13 subjects |
+| **Content** | 57 articles, 2 books, 28 exercises across 13 subjects |
 | **Code** | ~4,400 lines of PHP/HTML, ~1,000 lines of CSS. No framework, no database |
 
 ![Article page](docs/screenshots/article.png)
